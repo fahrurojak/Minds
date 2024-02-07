@@ -56,22 +56,6 @@ body {
   box-sizing: border-box;
   overflow-y: auto; 
 }
-.modal-content .close-button {
-  color: #aaa;
-  font-size: 16px;
-  font-weight: bold;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-.modal-content .close-button:hover,
-.modal-content .close-button:focus {
-  color: black;
-  text-decoration: underline;
-}
-
-
 @media screen and (max-width: 600px) {
   .modal-content {
     margin: 50% auto; 
@@ -85,13 +69,17 @@ body {
   border-radius: 20px;
   margin-bottom: 10px;
 }
+iframe {
+  max-width: 100%;
+  height: auto;
+}
 
 header {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.632), rgba(0, 0, 0, 0.632)), url("../../assets/img/bg.gif");
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.632)), url("../../assets/img/bg.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .container {
@@ -141,18 +129,13 @@ header {
   color: rgb(0, 0, 0);
   padding: 10px 15px 10px 15px;
 }
-
-.navbar .box-navbar .menu .active a {
-  background-color: #cecece;
-}
-
 .navbar .box-navbar .menu li a:hover {
   background-color:  #979797;
-  transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .menu-bar {
@@ -190,21 +173,6 @@ header {
   color: white;
   margin-bottom: 20px;
   font-weight: 100;
-}
-
-.hero .box-hero .box:nth-child(1) button {
-  width: 180px;
-  height: 50px;
-  background-color: #0050b3;
-  font-weight: bold;
-  color: white;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
 }
 
 .hero .box-hero .box:nth-child(1) button:hover {

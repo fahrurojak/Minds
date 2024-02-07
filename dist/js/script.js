@@ -14,7 +14,7 @@ function openModal(index) {
   document.removeEventListener("click", documentClickHandler);
 
   // Retrieve the detailed information from the HTML content based on the adjusted index
-  const detailsElement = document.getElementById(`minds${index + 0}`);
+  const detailsElement = document.getElementById(`minds${index + 1}`);
   const details = detailsElement ? detailsElement.innerHTML : '';
 
   // Set the detailed information without the close button
