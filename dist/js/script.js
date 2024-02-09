@@ -41,7 +41,6 @@ function closeModal() {
   // Re-enable the entire document's click event
   document.addEventListener("click", documentClickHandler);
 }
-
 const menuBar = document.querySelector(".menu-bar");
 const menuNav = document.querySelector(".menu");
 

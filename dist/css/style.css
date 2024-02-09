@@ -186,6 +186,36 @@ header {
 .hero .box-hero .box:nth-child(2) img {
   width: 100%;
 }
+
+
+.services {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  padding: 100px 0 50px 0;
+}
+
+.services .box-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 50px;
+}
+
+.services .box-services .box {
+  width: 300px;
+  text-align: center;
+  color: white;
+}
+
+.services .box-services .box img {
+  width: 50px; 
+}
+
+.services .box-services .box p {
+  font-weight: 100;
+}
 .minds {
   padding: 50px 0 50px 0;
 }
