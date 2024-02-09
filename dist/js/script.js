@@ -41,11 +41,6 @@ function closeModal() {
   // Re-enable the entire document's click event
   document.addEventListener("click", documentClickHandler);
 }
-  // Mendapatkan referensi elemen gambar
-  var imgElement = document.querySelector('#minds4 img');
-
-  // Mengganti src gambar dengan URL yang diinginkan
-  imgElement.src = 'https://satupersen.net/quiz/tes-sehat-mental';
 
 const menuBar = document.querySelector(".menu-bar");
 const menuNav = document.querySelector(".menu");
