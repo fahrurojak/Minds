@@ -32,6 +32,10 @@
 body {
   background-color: #222831;
 }
+body::after {
+  content: url("../../assets/img/bg.gif");
+  display: none;
+}
 /* Modal Styles */
 .modal {
   display: none;
